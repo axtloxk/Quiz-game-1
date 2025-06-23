@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz project - 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- 1st -->
+    <div class="screen start-screen active">
+      <h1>Quiz Time!</h1>
+      <p>Test your knowlege with these ass questions</p>
+      <button class="button-start btn" id="starting-button">Start Quiz</button>
+    </div>
+    <!-- 2nd -->
+    <div class="screen question-screen ">
+      <header>
+        <h2 id="questionPlace">To Put A Question</h2>
+      </header>
+      <div id="info">
+        <p id="question">Question <span id="question-span">1</span> of <span id="totalQuestionSpan">7</span></p>
+        <p id="score">Score: <span id="score-span">0</span></p>
+      </div>
+      <div id="answers" class="answers">
+        <!-- <button class="answer-btn correct">answer 1</button>
+        <button class="answer-btn uncorrect">answer 2</button>
+        <button class="answer-btn">answer 3</button>
+        <button class="answer-btn">answer 4</button> -->
+      </div>
+      <div class="prpogress-bar">
+        <div id="prpogress-bar"></div>
+      </div>
+      <!-- add a progress bar ↑↑ -->
+    </div>
+    
+    <!-- 3rd -->
+    <div class="screen resultsScreen ">
+      <h2>Quiz Results!</h2>
+      <div id="results">
+        <p>
+          You scored <span id="results-scored-span">0</span> out of <span id="maxScoreResults">5</span>
+        </p>
+        <h3 id="result-msg">So smart you did a good job</h3>
+      </div>
+      <button id="restart-quiz">Restart Quiz</button>
+    </div>
+  </div>
+  <a class="span" href="https://www.instagram.com/imcoffeemilk_/">by: imcoffeemilk_</a>
+  <script src="script.js"></script>
+</body>
+</html>
