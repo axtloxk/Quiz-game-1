@@ -158,13 +158,13 @@ function startQuiz() {
     }else if(score === 4) {
       resultMsg.textContent = "I'm so proud of how a monky you are!";
     }else if(score === 5) {
-      resultMsg.textContent = "I'm kinda dissapointed but keep the hard work!";
+      resultMsg.textContent = "I'm kinda disapoined but keep the hard work!";
     }else if(score === 6) {
-      resultMsg.textContent = "Looks like Einstein got back to life!";
+      resultMsg.textContent = "Looks like Epistain got back to life!";
     }else if(score === 7) {
       resultMsg.textContent = "You just got lucky don't restart the quiz you'll lose.";
     }else if(score === 0) {
-      resultMsg.textContent = "Trust me suic-de yourself you're so dangrous for the human beings....";
+      resultMsg.textContent = "Trust me kys you're so dangerous for the human beings....";
     }
     // ----------------------- // 
   }
