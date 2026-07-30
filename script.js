@@ -249,41 +249,41 @@ function showResults(){
   
   // if statements for the score // 
   if(score === 0) {
-    resultMsg.textContent = "Bro is literally an NPC. Negative aura detected. 💀";
+    resultMsg.textContent = "kys";
   } else if(score === 1) {
-    resultMsg.textContent = "Vro... did you even try? You're absolutely cooked. 😭";
+    resultMsg.textContent = "Vro... did you even try? You're absolutely cooked.";
   } else if(score === 2) {
-    resultMsg.textContent = "Nah son, this ain't it. Massive skill issue. 📉";
+    resultMsg.textContent = "Nah son, this ain't it. Massive skill issue.";
   } else if(score === 3) {
-    resultMsg.textContent = "Bro's brain is running on 900 ping right now. 🐌";
+    resultMsg.textContent = "An autistc kid is way smarter than ts.";
   } else if(score === 4) {
-    resultMsg.textContent = "You really thought you did something there, huh lil bro? 💀";
+    resultMsg.textContent = "You really thought you did something there, huh lil bro?";
   } else if(score === 5) {
-    resultMsg.textContent = "Get gud son. Start looksmaxxing that brain. 🧠";
+    resultMsg.textContent = "Get gud son. Start looksmaxxing that brain.";
   } else if(score === 6) {
-    resultMsg.textContent = "Bro is allergic to knowing things. Common L. 🤧";
+    resultMsg.textContent = "Bro is allergic to knowing common things.";
   } else if(score === 7) {
-    resultMsg.textContent = "Mid. Literally the definition of mid, vro. 😐";
+    resultMsg.textContent = "Nah mid.";
   } else if(score === 8) {
-    resultMsg.textContent = "Bro is hardstuck in silver rank IRL. 🥈";
+    resultMsg.textContent = "Hi lol";
   } else if(score === 9) {
-    resultMsg.textContent = "Let him cook? Nah, turn the stove off son. 🍳🚫";
+    resultMsg.textContent = "More questions and you're still stupid";
   } else if(score === 10) {
-    resultMsg.textContent = "Okay vro, I see you catching a W. We take those. 🏆";
+    resultMsg.textContent = "10 is 10";
   } else if(score === 11) {
-    resultMsg.textContent = "Bro actually locked in for a second. Valid. 🔒";
+    resultMsg.textContent = "Good job i guess.";
   } else if(score === 12) {
-    resultMsg.textContent = "Lowkey not bad, son. No cap. 🧢🚫";
+    resultMsg.textContent = "Lowkey not bad, son but what are you trying to tell us by scoring 12...";
   } else if(score === 13) {
-    resultMsg.textContent = "W rizz on the brainpower, bro. You ate that up. 🍽️";
+    resultMsg.textContent = "I wonder why did you score 13...";
   } else if(score === 14) {
-    resultMsg.textContent = "Vro is actually HIM. Main character energy. 🗿";
+    resultMsg.textContent = "KYS";
   } else if(score === 15) {
     resultMsg.textContent = "Bro is cooking with straight gas now! 🗣️🔥";
   } else if(score === 16) {
-    resultMsg.textContent = "Gigachad levels of smart. Massive W son. 🗿🍷";
+    resultMsg.textContent = "Yeah you did it.";
   } else if(score === 17) {
-    resultMsg.textContent = "Bro beat the matrix. Absolute sigma behavior right here. 🕶️💊";
+    resultMsg.textContent = "No words.";
   }
   // ----------------------- // 
 }
