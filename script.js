@@ -70,7 +70,7 @@ const quizQuestions = [
       { text: "Pacific Ocean", correct: true },
       { text: "Arctic Ocean", correct: false },
     ],
-  },,
+  },
   {
     question: "What is the capital of Japan?",
     answers: [
