@@ -17,52 +17,7 @@ let scoreSpanMax = document.getElementById('maxScoreResults');
 
 // questions 
 const quizQuestions = [
-  {
-    question: "What is the capital of Japan?",
-    answers: [
-      { text: "Shibuya", correct: false },
-      { text: "Berlin", correct: false },
-      { text: "James Lee", correct: false },
-      { text: "Tokyo", correct: true },
-    ],
-  },
-  {
-    question: "At less than 1 square kilometer, what is the smallest country in the world?",
-    answers: [
-      { text: "Monaco", correct: false },
-      { text: "San Marino", correct: false },
-      { text: "Vatican City", correct: true },
-      { text: "Malta", correct: false },
-    ],
-  },
-  {
-    question: "What is the longest thing on Earth?",
-    answers: [
-      { text: "Wifi's range", correct: false },
-      { text: "Radar range", correct: false },
-      { text: "Burj Khalifa", correct: false },
-      { text: "Hercules wall", correct: true }, 
-    ],
-  },
-  {
-    question: 'What does "IQ" stand for?',
-    answers: [
-      { text: "Interaction Quickness", correct: false },
-      { text: "Important Quality", correct: false },
-      { text: "Intelligence Quotient", correct: true },
-      { text: "Intelligent Question", correct: false },
-    ],
-  },
-  {
-    question: "What is the name of the science that studies plants?",
-    answers: [
-      { text: "Astronomy", correct: false },
-      { text: "Botany", correct: true },
-      { text: "Agronomy", correct: false},
-      { text: "Biology", correct: false },
-    ],
-  }, 
-  {
+    {
     question: "What is dyslexia?",
     answers: [
       { text: "A fear of spiders", correct: false },
@@ -115,7 +70,52 @@ const quizQuestions = [
       { text: "Pacific Ocean", correct: true },
       { text: "Arctic Ocean", correct: false },
     ],
+  },,
+  {
+    question: "What is the capital of Japan?",
+    answers: [
+      { text: "Shibuya", correct: false },
+      { text: "Berlin", correct: false },
+      { text: "James Lee", correct: false },
+      { text: "Tokyo", correct: true },
+    ],
   },
+  {
+    question: "At less than 1 square kilometer, what is the smallest country in the world?",
+    answers: [
+      { text: "Monaco", correct: false },
+      { text: "San Marino", correct: false },
+      { text: "Vatican City", correct: true },
+      { text: "Malta", correct: false },
+    ],
+  },
+  {
+    question: "What is the longest thing on Earth?",
+    answers: [
+      { text: "Wifi's range", correct: false },
+      { text: "Radar range", correct: false },
+      { text: "Burj Khalifa", correct: false },
+      { text: "Hercules wall", correct: true }, 
+    ],
+  },
+  {
+    question: 'What does "IQ" stand for?',
+    answers: [
+      { text: "Interaction Quickness", correct: false },
+      { text: "Important Quality", correct: false },
+      { text: "Intelligence Quotient", correct: true },
+      { text: "Intelligent Question", correct: false },
+    ],
+  },
+  {
+    question: "What is the name of the science that studies plants?",
+    answers: [
+      { text: "Astronomy", correct: false },
+      { text: "Botany", correct: true },
+      { text: "Agronomy", correct: false},
+      { text: "Biology", correct: false },
+    ],
+  }, 
   {
     question: "What is the hardest known natural substance?",
     answers: [
