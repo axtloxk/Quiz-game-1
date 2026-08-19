@@ -99,15 +99,6 @@ const quizQuestions = [
     ],
   },
   {
-    question: 'What does "IQ" stand for?',
-    answers: [
-      { text: "Interaction Quickness", correct: false },
-      { text: "Important Quality", correct: false },
-      { text: "Intelligence Quotient", correct: true },
-      { text: "Intelligent Question", correct: false },
-    ],
-  },
-  {
     question: "What is the name of the science that studies plants?",
     answers: [
       { text: "Astronomy", correct: false },
@@ -132,15 +123,6 @@ const quizQuestions = [
       { text: "Six", correct: false },
       { text: "Seven", correct: true },
       { text: "Eight", correct: false },
-    ],
-  },
-  {
-    question: "Which language has the most native speakers?",
-    answers: [
-      { text: "English", correct: false },
-      { text: "Spanish", correct: false },
-      { text: "Mandarin Chinese", correct: true },
-      { text: "Hindi", correct: false },
     ],
   },
   {
@@ -280,11 +262,7 @@ function showResults(){
     resultMsg.textContent = "KYS";
   } else if(score === 15) {
     resultMsg.textContent = "Bro is cooking with straight gas now! 🗣️🔥";
-  } else if(score === 16) {
-    resultMsg.textContent = "Yeah you did it.";
-  } else if(score === 17) {
-    resultMsg.textContent = "No words.";
-  }
+  } 
   // ----------------------- // 
 }
 
