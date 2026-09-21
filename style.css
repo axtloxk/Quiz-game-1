@@ -86,6 +86,9 @@ background-color: var(--blue600);
 .answer-btn:hover{
   background-color: var(--blue400);
 }
+.answer-btn:active {
+  background-color: var(--blue600);
+}
 .answers{
   display: flex;
   flex-direction: column;
