@@ -141,7 +141,7 @@ h3{
     padding: 0 1.5rem;
   }
 .answer-btn:hover{
-    background-color:none;
+    background-color:var(--blue600);
   }
   .screen{
     max-width: 400px;
