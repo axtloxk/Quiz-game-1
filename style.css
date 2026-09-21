@@ -134,6 +134,9 @@ h3{
 }
 /* re set quires for phone'screen - tablets */
 @media (max-width: 620px) {
+  body{ 
+    padding: 0 1.5rem;
+  }
   .answer-btn:hover{
     background-color:none;
   }
